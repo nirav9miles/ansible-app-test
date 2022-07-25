@@ -1,2 +1,3 @@
 git remote add remote-repo git@github.com:nirav9miles/ansible-app-test.git
 git push remote-repo master
+git pull remote-repo master
