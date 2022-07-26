@@ -1,3 +1,14 @@
 git remote add remote-repo git@github.com:nirav9miles/ansible-app-test.git
 git push remote-repo master
 git pull remote-repo master
+######
+git tag -a version1 d32d90a167 -m " this needs to be put in production"
+
+# to see the detail information about the gieven tag name " version1"
+git cat-file version1 -p.
+
+# to push tag
+git push remote-repo --t tag version1 
+git clone "url"
+
+fetch and pull(commit  command 
